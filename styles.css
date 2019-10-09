@@ -13,6 +13,11 @@ ul {
   margin-left: 70%;
 }
 
+.opening {
+  background-image: url(https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg);
+  height: 900px;
+}
+
 .opening h2 {
   display: flex;
   justify-content: center;
@@ -29,6 +34,11 @@ ul {
   justify-content: space-around;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.details {
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 .when {
@@ -48,8 +58,8 @@ ul {
 }
 
 .details {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
 }
 
 .sides {
@@ -71,4 +81,10 @@ ul {
   background-color: blue;
   margin-left: 60px;
   margin-right: 60px;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
