@@ -21,10 +21,11 @@ ul {
 .opening h2 {
   display: flex;
   justify-content: center;
+
 }
 
 .eleven {
-  margin-top: 75px;
+  margin-top: 275px;
   display: flex;
   justify-content: center;
 }
@@ -32,7 +33,7 @@ ul {
 .deets {
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 250px;
   margin-bottom: 50px;
 }
 
@@ -79,12 +80,41 @@ ul {
 
 .social {
   background-color: blue;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 260px;
+  margin-right: 260px;
+  height: 130px;
+}
+
+.social p {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sponbanner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sponbanner p {
+  margin-right: 70px;
+}
+
+.sponbanner a {
+  margin-left: 70px;
 }
 
 .sponsors {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  align-items: space-between;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+
+.sponsors * {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
