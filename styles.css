@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-header::after {
+.carrot:after {
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
   border-top: 20px solid #fff;
@@ -15,7 +15,7 @@ header::after {
   position: absolute;
   left: 50%;
   bottom: -11px;
-  width: 60px;
+  width: 0px;
 }
 
 li {
