@@ -60,11 +60,6 @@ h2 {
   margin-bottom: 50px;
 }
 
-.details {
-  margin-left: 75px;
-  margin-right: 75px;
-}
-
 .when {
   display: flex;
   justify-content: center;
@@ -81,14 +76,9 @@ h2 {
   height: 150px;
 }
 
-.vid {
-  position: absolute;
-
-}
-
 .details {
-  margin-left: 500px;
-  margin-right: 500px;
+  padding-left: 500px;
+  padding-right: 500px;
 }
 
 .sides {
@@ -111,6 +101,9 @@ h2 {
   margin-left: 260px;
   margin-right: 260px;
   height: 130px;
+
+  display: flex;
+  justify-content: center;
 }
 
 .social p {
